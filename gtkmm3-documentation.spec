@@ -3,18 +3,19 @@
 Summary:	Documentation and examples for gtkmm - C++ API for GTK+
 Summary(pl.UTF-8):	Dokumentacja i przykłady do gtkmm - API C++ dla GTK+
 Name:		gtkmm3-documentation
-Version:	3.24.1
+Version:	3.24.2
 Release:	1
 License:	FDL v1.2+ (documentation), GPL v2 (examples)
 Group:		Documentation
 Source0:	https://download.gnome.org/sources/gtkmm-documentation/3.24/gtkmm-documentation-%{version}.tar.xz
-# Source0-md5:	3550f40118f8c40e2739e63a55be77be
+# Source0-md5:	2bd242ceb34d158007e0ee7dd1653ca4
 URL:		http://www.gtkmm.org/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.11
-BuildRequires:	docbook-dtd45-xml
+BuildRequires:	docbook-dtd50-xml
 BuildRequires:	glibmm-devel >= %{glibmm_ver}
 BuildRequires:	gtkmm3-devel >= %{gtkmm3_ver}
+BuildRequires:	itstool
 BuildRequires:	libstdc++-devel >= 6:5.1
 BuildRequires:	mm-common >= 0.9.10
 BuildRequires:	perl-base >= 1:5.6.0
